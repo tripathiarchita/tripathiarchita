@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0d0628,#e45a78,#f99167c7);
+    
+    
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 1cm;
+    padding: 30px;
+    background-color: rgb(235, 172, 90);
+    border: 2.5px solid #594902;
+    border-radius: 5px;
+    
+}
+.container:hover{
+    background: linear-gradient(to left,#b07b5a,#c49969,#f1e75d,#d3f470);;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+h2{
+    text-align:center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom:1cm ;
+
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #594902;
+    border-radius: 3px;
+    transition: border 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2.5px solid #594902;
+}
+
+
+.error-message {
+    color: rgb(151, 9, 9);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.password-strength {
+    color: #000707;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.password-strength.weak {
+    color: rgb(110, 6, 6);
+}
+
+.password-strength.medium {
+    color: rgb(184, 123, 32);
+}
+
+.password-strength.strong {
+    color: #034703;
+}
+
+button[type="submit"] {
+    background-color: #064945;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a0431;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+footer {
+    background-color:#c4bba77e ; 
+    padding: 3px;
+    text-align: center; 
+  }
+  
